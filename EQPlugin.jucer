@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ZeGhVp" name="EQPlugin" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="sJiDuC" name="EQPlugin">
+    <GROUP id="{E0DEAB68-8BC9-C303-1213-ABAF5C7C1EBF}" name="Source">
+      <FILE id="eGFF1U" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="BMg6Ki" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="YSDbIo" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="EQPlugin"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="EQPlugin"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../Downloads/juce-6.1.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Downloads/juce-6.1.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Downloads/juce-6.1.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Downloads/juce-6.1.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Downloads/juce-6.1.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../Downloads/juce-6.1.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Downloads/juce-6.1.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Downloads/juce-6.1.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Downloads/juce-6.1.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Downloads/juce-6.1.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Downloads/juce-6.1.5-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
