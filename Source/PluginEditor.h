@@ -14,20 +14,20 @@
 //==============================================================================
 /**
 */
-class LolAudioProcessorEditor  : public juce::AudioProcessorEditor
+class EQPluginAudioProcessorEditor : public juce::AudioProcessorEditor
 {
 public:
-    LolAudioProcessorEditor (LolAudioProcessor&);
-    ~LolAudioProcessorEditor() override;
+  EQPluginAudioProcessorEditor(EQPluginAudioProcessor&);
+  ~EQPluginAudioProcessorEditor() override;
 
-    //==============================================================================
-    void paint (juce::Graphics&) override;
-    void resized() override;
+  //==============================================================================
+  void paint(juce::Graphics &) override;
+  void resized() override;
 
 private:
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.
-    LolAudioProcessor& audioProcessor;
+   EQPluginAudioProcessorEditor &audioProcessor;
 
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (LolAudioProcessorEditor)
+   JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(EQPluginAudioProcessorEditor)
 };
